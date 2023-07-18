@@ -13,4 +13,5 @@ int main(){
 	cout<<"max= "<<b;
 	cout<<"\nmin= "<<a;
 }
+return 0;
 }

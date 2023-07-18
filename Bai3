@@ -8,17 +8,17 @@ cout << "Nhap 0 de doi tu ky tu sang ma ASCII\nNhap 1 de doi tu ma ASCII sang ky
 cin >> LuaChon;
 if(LuaChon == 0){
 	char m;
-    cout<<"Nhap ky tu can doi \n";
+    cout<<"Nhap ky tu can doi ";
     cin >> m;
-    cout <<"Ky tu do trong bang ASCII co gia tri la\n" <<int(m);
+    cout <<"Ky tu do trong bang ASCII co gia tri la" <<int(m);
     return 0;
 }
 else{
 	if (LuaChon == 1){
 	int n;
-    cout<<"Nhap ma ASCII can doi \n";
+    cout<<"Nhap ma ASCII can doi ";
     cin >> n;
-    cout <<"Ky tu duoc doi la\n" <<char(n);
+    cout <<"Ky tu duoc doi la " <<char(n);
     return 0;
 }else{cout<<"Chi co lua chon 1 hoac 0";
 return 0;

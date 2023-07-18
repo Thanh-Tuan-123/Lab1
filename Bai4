@@ -9,6 +9,6 @@ int main(){
 	DienTich= Pi*BanKinh*BanKinh;
 	cout<<"Chu vi duong tron co ban kinh "<<BanKinh;
 	cout<<" la "<<ChuVi; 	
-	cout<<"Dien tich duong tron co ban kinh "<<BanKinh;
+	cout<<"\nDien tich duong tron co ban kinh "<<BanKinh;
 	cout<<" la "<<DienTich; 
 }

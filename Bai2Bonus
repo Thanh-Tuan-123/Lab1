@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+int main(){
+	cout<< "** BAI TAP LAP TRINH MON LAP TRINH C **"<<endl;
+	cout<< "***************TUAN 1******************"<<endl;
+	string a, b, c, d;
+	double q, w, e, r, d1, f2; 
+	cout<< "Ho va ten: "; cin>>a;
+	cout<< "Lop: "; cin>>b;
+	cout<< "Khoa: "; cin>>c;
+	cout<< "Nam hoc: "; cin>>d;
+	cout<< "** BANG DIEM **"<<endl;
+	cout<< "Mon 1: "; cin>>q;
+	cout<< "Mon 2: "; cin>>w;
+	cout<< "Mon 3: "; cin>>e;
+	cout<< "Mon 4: "; cin>>r;
+	cout<< "Mon 5: "; cin>>d1;
+	f2= ( q+w+e+r+d1)/5;
+	cout<< "Trung binh: "<<f2;
+return 0;
+}

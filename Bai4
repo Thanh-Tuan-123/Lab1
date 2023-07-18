@@ -11,4 +11,5 @@ int main(){
 	cout<<" la "<<ChuVi; 	
 	cout<<"\nDien tich duong tron co ban kinh "<<BanKinh;
 	cout<<" la "<<DienTich; 
+return 0;
 }

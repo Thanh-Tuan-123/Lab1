@@ -6,5 +6,6 @@ int main()
 	cout<<"Nam sinh cua ban la\n";
 	cin>>nam_sinh;
 	tuoi= nam_nay - nam_sinh;
-	cout<<"ban sinh nam "<<nam_sinh;cout<<" vay tuoi cua ban la "<<tuoi; 	
+	cout<<"ban sinh nam "<<nam_sinh;cout<<" vay tuoi cua ban la "<<tuoi; 
+return 0;
 }

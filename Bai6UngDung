@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+int main(){
+	float a, b, n;
+	cout<<"So thuc a, b lan luot la: \n";
+	cin>>a;
+	cin>>b;
+	n= ((2*a*a)+(3*b*b)+4)/(a+b);
+	cout<<"Gia tri cua phuong trinh la: "<<n;
+return 0;
+}
